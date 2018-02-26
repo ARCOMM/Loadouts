@@ -2,6 +2,7 @@
 this forceAddUniform "MNP_CombatUniform_Germany";
 for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
 this addItemToUniform "ACE_EntrenchingTool";
+this addItemToUniform "CUP_17Rnd_9x19_glock17";
 this addItemToUniform "ACE_morphine";
 this addItemToUniform "ACE_tourniquet";
 this addItemToUniform "ACRE_PRC343";
