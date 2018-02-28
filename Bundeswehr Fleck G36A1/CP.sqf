@@ -1,5 +1,4 @@
-﻿comment "Exported from Arsenal by shredcov";
-this forceAddUniform "CUP_U_B_GER_Flecktarn_2";
+﻿this forceAddUniform "CUP_U_B_GER_Flecktarn_2";
 for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
 this addItemToUniform "ACE_EntrenchingTool";
 this addItemToUniform "ACE_morphine";

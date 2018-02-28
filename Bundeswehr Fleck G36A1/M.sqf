@@ -1,5 +1,4 @@
-﻿comment "Exported from Arsenal by shredcov";
-this forceAddUniform "MNP_CombatUniform_Germany";
+﻿this forceAddUniform "MNP_CombatUniform_Germany";
 for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
 this addItemToUniform "ACE_EntrenchingTool";
 this addItemToUniform "CUP_17Rnd_9x19_glock17";
@@ -25,4 +24,5 @@ this linkItem "ItemMap";
 this linkItem "ItemCompass";
 this linkItem "ItemWatch";
 this linkItem "ItemRadio";
+this linkItem "ItemGPS";
 [this,"MedB"] call bis_fnc_setUnitInsignia;
