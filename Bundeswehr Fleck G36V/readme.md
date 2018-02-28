@@ -1,5 +1,5 @@
 ﻿#  Bundeswehr Flecktarn loadout
-Bundeswehr Uniforms, base rifle G36V and G36V GL with M68 CCO red dot.
+Bundeswehr Uniforms, base rifle G36V and G36V GL with M68 CCO aimpoint.
 
 ### Special
 MAT-, HMG-, GMG-teams
