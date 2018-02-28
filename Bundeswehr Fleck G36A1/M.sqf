@@ -24,4 +24,5 @@ this linkItem "ItemMap";
 this linkItem "ItemCompass";
 this linkItem "ItemWatch";
 this linkItem "ItemRadio";
+this linkItem "ItemGPS";
 [this,"MedB"] call bis_fnc_setUnitInsignia;
