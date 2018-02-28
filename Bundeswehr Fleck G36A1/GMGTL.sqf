@@ -1,5 +1,4 @@
-﻿comment "Exported from Arsenal by shredcov";
-this forceAddUniform "MNP_CombatUniform_Germany_S";
+﻿this forceAddUniform "MNP_CombatUniform_Germany_S";
 for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
 this addItemToUniform "ACE_EntrenchingTool";
 this addItemToUniform "CUP_17Rnd_9x19_glock17";
