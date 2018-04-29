@@ -1,6 +1,6 @@
 ﻿#	US Army Scorpion Pattern - M416
 US Army Loadout equipped with Scorpion pattern gear and HK M416 5.56 rifles.
-Base rifles come in sand color scheme with MK17 Holosight
+Base rifles come in sand color scheme with MK17 Holosight.
 Command staff wears Scorpion Ranger fatigues. Special roles vary in weapon color scheme, vest pattern and backpack type.
 
 ###	Special
@@ -9,7 +9,8 @@ ARs are equipped with M416 + 150 Round Beta-C mags - 1500 Rounds spread between 
 
 RATs are equipped with Carl Gustav / MAAWS reusable AT launchers.
 
-MAT-Team is equipped with FGM-148 Javelin, 3 missiles spread across the team. Dedicated vehicle support + additional ammunition is recommended.
+MAT-Team is equipped with FGM-148 Javelin, 3 missiles spread across the team.
+Dedicated vehicle support + additional ammunition is recommended.
 
 MMG-Team utilizes M240 7.62 mm medium machine gun + Meopta red dot sight + 1800 rounds spread across the team. (2x - 3x magnification might be justifiable)
 
