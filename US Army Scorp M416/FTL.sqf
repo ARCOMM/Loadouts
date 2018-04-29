@@ -23,5 +23,4 @@ this addWeapon "Binocular";
 this linkItem "ItemMap";
 this linkItem "ItemCompass";
 this linkItem "ItemWatch";
-this linkItem "ItemRadio";
 this linkItem "ItemGPS";

@@ -17,4 +17,3 @@ this addWeapon "CUP_hgun_M9";
 this linkItem "ItemMap";
 this linkItem "ItemCompass";
 this linkItem "ItemWatch";
-this linkItem "ItemRadio";
