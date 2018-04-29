@@ -66,7 +66,7 @@ Special gunner roles weigh in at about 35 kg.
 	*	MAAWS Mk4 Mod 0 (Green)
 	*	3 HEAT 75 Round
 	
-*	 MATG
+*	MATG
 	*	GPS
 	*	FGM-148 Javelin
 	*	1 Javelin missile (9.03 kg)
