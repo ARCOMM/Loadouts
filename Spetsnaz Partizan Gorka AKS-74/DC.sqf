@@ -6,7 +6,6 @@ this addItemToUniform "ACE_morphine";
 this addItemToUniform "ACE_tourniquet";
 this addItemToUniform "ACE_MapTools";
 this addItemToUniform "ACE_Flashlight_KSF1";
-this addItemToUniform "ACRE_PRC343";
 this addVest "CUP_V_CDF_6B3_2_Green";
 for "_i" from 1 to 2 do {this addItemToVest "CUP_HandGrenade_RGO";};
 for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};

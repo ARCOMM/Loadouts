@@ -1,11 +1,11 @@
 comment "Exported from Arsenal by Matuzalem";
 
 this forceAddUniform "CUP_U_O_RUS_Gorka_Partizan";
-this addItemToUniform "ACRE_PRC343";
 for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
 this addItemToUniform "ACE_morphine";
 this addItemToUniform "ACE_tourniquet";
 this addItemToUniform "ACE_MapTools";
+this addItemToUniform "ACE_Flashlight_KSF1";
 this addItemToUniform "ACE_RangeTable_82mm";
 this addVest "CUP_V_CDF_6B3_1_Green";
 for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
