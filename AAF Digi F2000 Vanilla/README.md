@@ -8,16 +8,16 @@ RAT utilizes NLAW.
 AR utilizes Stoner 6.5 mm.
 
 ###	General
-*	3 bandages
-*	1 morphine
-*	1 tourniquet
-*	2 frag grenades
-*	2 smoke grenades
-*	1 entrenching tool
-*	1 map
-*	1 compass
-*	1 watch
-*	1 handgun Costum Covert II
+	*	3 bandages
+	*	1 morphine
+	*	1 tourniquet
+	*	2 frag grenades
+	*	2 smoke grenades
+	*	1 entrenching tool
+	*	1 map
+	*	1 compass
+	*	1 watch
+	*	1 handgun Costum Covert II
 
 ###	Specific
 *	CO/DC/SQL
@@ -98,4 +98,5 @@ AR utilizes Stoner 6.5 mm.
 	
 ###	Addons required
 *	Vanilla
-*	ACE & CBA
+*	ACE
+*	CBA
