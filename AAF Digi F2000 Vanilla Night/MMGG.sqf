@@ -17,7 +17,7 @@ this addGoggles "CUP_TK_NeckScarf";
 this addWeapon "MMG_01_tan_F";
 this addPrimaryWeaponItem "ACE_muzzle_mzls_93mmg";
 this addPrimaryWeaponItem "acc_pointer_IR";
-this addPrimaryWeaponItem "CUP_bipod_VLTOR_Modpod";
+this addPrimaryWeaponItem "bipod_01_F_blk";
 this addWeapon "hgun_ACPC2_F";
 this linkItem "ItemMap";
 this linkItem "ItemCompass";
