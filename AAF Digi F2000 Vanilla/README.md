@@ -61,20 +61,20 @@ AR utilizes Stoner 6.5 mm.
 	
 	
 *	VD
+	*	GPS
 	*	CTAR-21
-	*	3 30rnd Stanag
-	*	3 30rnd Stanag y-tracer
+	*	6 30rnd Stanag
 	*	Toolkit
 	
 *	VG
+	*	GPS
 	*	CTAR-21
-	*	3 30rnd Stanag
-	*	3 30rnd Stanag y-tracer
+	*	6 30rnd Stanag
 	
 *	VC
+	*	GPS
 	*	CTAR-21
-	*	3 30rnd Stanag
-	*	3 30rnd Stanag y-tracer
+	*	6 30rnd Stanag
 	*	Binoculars
 
 	
