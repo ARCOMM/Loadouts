@@ -10,6 +10,7 @@ for "_i" from 1 to 2 do {this addItemToUniform "SmokeShell";};
 for "_i" from 1 to 3 do {this addItemToUniform "30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow";};
 for "_i" from 1 to 2 do {this addItemToUniform "ACE_HandFlare_Red";};
 for "_i" from 1 to 2 do {this addItemToUniform "ACE_Chemlight_HiRed";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_Chemlight_HiGreen";};
 this addHeadgear "H_PilotHelmetHeli_O";
 this addWeapon "SMG_01_F";
 this linkItem "ItemMap";
