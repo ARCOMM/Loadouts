@@ -1,0 +1,18 @@
+this forceAddUniform "U_O_CombatUniform_oucamo";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_CableTie";
+this addItemToUniform "ACE_EarPlugs";
+this addItemToUniform "ACE_EntrenchingTool";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addVest "V_BandollierB_blk";
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 3 do {this addItemToVest "1Rnd_HE_Grenade_shell";};
+for "_i" from 1 to 5 do {this addItemToVest "30Rnd_9x21_Mag_SMG_02";};
+this addHeadgear "H_HelmetCrew_O_ghex_F";
+this addWeapon "SMG_02_F";
+this addWeapon "hgun_Pistol_heavy_01_F";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

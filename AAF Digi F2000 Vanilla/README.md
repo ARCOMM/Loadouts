@@ -61,20 +61,20 @@ AR utilizes Stoner 6.5 mm.
 	
 	
 *	VD
-	*	GPS
 	*	CTAR-21
-	*	6 30rnd Stanag
+	*	3 30rnd Stanag
+	*	3 30rnd Stanag y-tracer
 	*	Toolkit
 	
 *	VG
-	*	GPS
 	*	CTAR-21
-	*	6 30rnd Stanag
+	*	3 30rnd Stanag
+	*	3 30rnd Stanag y-tracer
 	
 *	VC
-	*	GPS
 	*	CTAR-21
-	*	6 30rnd Stanag
+	*	3 30rnd Stanag
+	*	3 30rnd Stanag y-tracer
 	*	Binoculars
 
 	
@@ -98,5 +98,4 @@ AR utilizes Stoner 6.5 mm.
 	
 ###	Addons required
 *	Vanilla
-*	ACE
-*	CBA
+*	ACE & CBA

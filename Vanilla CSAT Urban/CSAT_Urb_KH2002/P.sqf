@@ -1,0 +1,16 @@
+this forceAddUniform "U_O_PilotCoveralls";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_CableTie";
+this addItemToUniform "ACE_EarPlugs";
+this addItemToUniform "ACE_EntrenchingTool";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+for "_i" from 1 to 2 do {this addItemToUniform "11Rnd_45ACP_Mag";};
+for "_i" from 1 to 2 do {this addItemToUniform "SmokeShell";};
+this addHeadgear "H_CrewHelmetHeli_O";
+this addWeapon "hgun_Pistol_heavy_01_F";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";
+this linkItem "NVGoggles_OPFOR";

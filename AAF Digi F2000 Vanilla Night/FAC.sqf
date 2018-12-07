@@ -8,6 +8,7 @@ this addItemToUniform "ACE_tourniquet";
 this addItemToUniform "ACE_MapTools";
 this addItemToUniform "ACE_Flashlight_XL50";
 for "_i" from 1 to 2 do {this addItemToUniform "ACE_Chemlight_HiRed";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_Chemlight_HiGreen";};
 this addVest "V_PlateCarrierIAGL_dgtl";
 for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
 for "_i" from 1 to 3 do {this addItemToVest "30Rnd_556x45_Stanag";};

@@ -19,6 +19,7 @@ AR utilizes Stoner 6.5 mm.
 *	1 watch
 *	1 handgun Costum Covert II
 *	2 chemlights red
+*	2 chemlights green
 *	1 Gen8 NVG
 *	1 Maglite XL50
 *	1 IR Laserpointer (red)
@@ -32,7 +33,7 @@ AR utilizes Stoner 6.5 mm.
 	*	1 smoke GL blue
 	*	1 smoke GL green
 	*	5 flare GL red
-	*	5 flare GL yellow
+	*	5 flare GL green
 	*	1 smoke blue/ green/ red
 	*	2 hand flare red
 	*	2 hand flare green

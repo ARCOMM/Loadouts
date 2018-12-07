@@ -21,7 +21,7 @@ for "_i" from 1 to 2 do {this addItemToBackpack "SmokeShellGreen";};
 for "_i" from 1 to 4 do {this addItemToBackpack "SmokeShell";};
 this addHeadgear "H_HelmetIA_camo";
 this addGoggles "G_Bandanna_blk";
-this addWeapon "arifle_Mk20_plain_F";
+this addWeapon "arifle_Mk20_F";
 this addPrimaryWeaponItem "optic_ACO_grn";
 this addWeapon "hgun_ACPC2_F";
 this linkItem "ItemMap";

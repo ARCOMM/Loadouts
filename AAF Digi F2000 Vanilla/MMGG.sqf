@@ -13,7 +13,7 @@ for "_i" from 1 to 3 do {this addItemToBackpack "150Rnd_93x64_Mag";};
 this addHeadgear "H_HelmetIA";
 this addGoggles "CUP_TK_NeckScarf";
 this addWeapon "MMG_01_tan_F";
-this addPrimaryWeaponItem "bipod_01_F_blk";
+this addPrimaryWeaponItem "CUP_bipod_VLTOR_Modpod";
 this addWeapon "hgun_ACPC2_F";
 this linkItem "ItemMap";
 this linkItem "ItemCompass";
