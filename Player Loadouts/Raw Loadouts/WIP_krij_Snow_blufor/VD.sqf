@@ -1,0 +1,15 @@
+this forceAddUniform "CUP_I_B_PMC_Unit_25";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addVest "CUP_V_PMC_CIRAS_Black_Veh";
+for "_i" from 1 to 4 do {this addItemToVest "hlc_30Rnd_9x19_B_MP5";};
+this addBackpack "B_AssaultPack_blk";
+this addItemToBackpack "ToolKit";
+this addHeadgear "CUP_H_USMC_Crew_Helmet";
+this addGoggles "G_Balaclava_combat";
+this addWeapon "hlc_smg_MP5N";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

@@ -1,0 +1,28 @@
+
+comment "Exported from Arsenal by WirelessPillow";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+this addWeapon "LMG_Zafir_F";
+this addPrimaryWeaponItem "150Rnd_762x54_Box_Tracer";
+this forceAddUniform "U_BG_Guerilla2_1";
+this addVest "V_PlateCarrier2_blk";
+this addBackpack "B_AssaultPack_blk";
+this addWeapon "Binocular";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "HandGrenade";
+for "_i" from 1 to 2 do {this addItemToVest "150Rnd_762x54_Box_Tracer";};
+this addItemToBackpack "150Rnd_762x54_Box_Tracer";
+this addHeadgear "H_HelmetSpecB";
+this addGoggles "G_Lowprofile";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

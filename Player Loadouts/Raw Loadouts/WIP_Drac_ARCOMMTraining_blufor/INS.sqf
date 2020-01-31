@@ -1,0 +1,13 @@
+﻿this forceAddUniform "V_ARCunis_ARCTech_bdu";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_Flashlight_MX991";
+this addVest "custom_vest1";
+this addBackpack "AORN_Assault_Pack";
+this addHeadgear "custom_helmet2";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

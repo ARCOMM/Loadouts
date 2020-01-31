@@ -1,0 +1,10 @@
+this call compile preprocessFileLineNumbers "loadouts\blufor\BASE.sqf";
+this addVest "CUP_V_I_Guerilla_Jacket";
+this addHeadgear "H_Hat_camo";
+for "_i" from 1 to 10 do {this addItemToVest "10Rnd_762x54_Mag";};
+this addWeapon "CUP_srifle_SVD_wdl";
+this addPrimaryWeaponItem "cup_optic_pso_1";
+this addPrimaryWeaponItem "cup_svd_camo_g";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

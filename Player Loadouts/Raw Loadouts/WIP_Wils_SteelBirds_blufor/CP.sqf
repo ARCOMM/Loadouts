@@ -1,0 +1,13 @@
+this forceAddUniform "usm_bdu_odg";
+for "_i" from 1 to 5 do {this addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_morphine";};
+this addItemToUniform "ACE_epinephrine";
+this addItemToUniform "ACE_EarPlugs";
+this addVest "CUP_V_CDF_OfficerBelt";
+for "_i" from 1 to 4 do {this addItemToVest "CUP_7Rnd_45ACP_1911";};
+this addBackpack "usm_pack_st138_prc77";
+this addHeadgear "CUP_H_USMC_Helmet_Pilot";
+this addWeapon "CUP_hgun_Colt1911";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

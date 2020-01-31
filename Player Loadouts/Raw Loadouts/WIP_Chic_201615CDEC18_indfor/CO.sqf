@@ -1,0 +1,13 @@
+this forceAddUniform "CUP_U_O_Partisan_TTsKO";
+for "_i" from 1 to 3 do {this addItemToUniform "6Rnd_GreenSignal_F";};
+this addVest "CUP_V_CDF_OfficerBelt2";
+for "_i" from 1 to 3 do {this addItemToVest "6Rnd_GreenSignal_F";};
+this addHeadgear "CUP_H_TK_Beret";
+this addGoggles "G_Aviator";
+this addWeapon "hgun_Pistol_Signal_F";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+this setFace "TanoanHead_A3_02";

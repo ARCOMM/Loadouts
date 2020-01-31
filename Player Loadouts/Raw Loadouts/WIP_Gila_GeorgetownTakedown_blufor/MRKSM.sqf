@@ -1,0 +1,18 @@
+this forceAddUniform "U_B_GEN_Commander_F";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "hlc_12Rnd_357SIG_B_P226";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_CableTie";};
+this addVest "CUP_V_PMC_CIRAS_Black_Veh";
+for "_i" from 1 to 4 do {this addItemToVest "hlc_20Rnd_762x51_T_M14";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+this addHeadgear "CFP_OPS2017_Helmet_Black2";
+this addGoggles "CFP_Shemagh_Half_Black";
+this addWeapon "hlc_rifle_m14sopmod";
+this addPrimaryWeaponItem "hlc_muzzle_MAG58_Brake";
+this addPrimaryWeaponItem "CUP_optic_Eotech553_Black";
+this addWeapon "hlc_pistol_P226R_Stainless";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

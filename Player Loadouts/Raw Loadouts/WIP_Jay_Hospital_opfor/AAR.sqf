@@ -1,0 +1,16 @@
+this forceAddUniform "CUP_I_B_PMC_Unit_23";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "10Rnd_9x21_Mag";
+this addVest "CUP_V_I_RACS_Carrier_Rig_wdl_2";
+for "_i" from 1 to 2 do {this addItemToVest "CUP_HandGrenade_RGD5";};
+for "_i" from 1 to 10 do {this addItemToVest "30Rnd_762x39_Mag_F";};
+this addBackpack "B_AssaultPack_rgr";
+for "_i" from 1 to 2 do {this addItemToBackpack "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Yellow_M";};
+this addHeadgear "H_Shemag_olive_hs";
+this addGoggles "G_Bandanna_tan";
+this addWeapon "arifle_AKM_F";
+this addWeapon "hgun_Pistol_01_F";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

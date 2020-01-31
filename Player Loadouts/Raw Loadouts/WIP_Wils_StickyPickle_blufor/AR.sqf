@@ -1,0 +1,17 @@
+this forceAddUniform "MNP_CombatUniform_US6co_A";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addVest "MNP_Vest_6co_A";
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 3 do {this addItemToVest "hlc_12Rnd_357SIG_B_P226";};
+this addItemToVest "CUP_HandGrenade_M67";
+this addItemToVest "CUP_200Rnd_TE4_Red_Tracer_556x45_M249";
+this addBackpack "CUP_B_USPack_Coyote";
+for "_i" from 1 to 2 do {this addItemToBackpack "CUP_200Rnd_TE4_Red_Tracer_556x45_M249";};
+this addHeadgear "MNP_Helmet_6Co";
+this addWeapon "CUP_lmg_m249_pip3";
+this addWeapon "hlc_pistol_P226R_357Combat";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

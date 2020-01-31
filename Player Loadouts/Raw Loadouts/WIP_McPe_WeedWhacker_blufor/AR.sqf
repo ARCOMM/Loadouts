@@ -1,0 +1,18 @@
+this forceAddUniform "CUP_U_B_USMC_FROG4_DMARPAT";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_CableTie";
+this addVest "CUP_V_B_Eagle_SPC_AR";
+for "_i" from 1 to 2 do {this addItemToVest "CUP_HandGrenade_M67";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+this addItemToVest "hlc_200rnd_556x45_M_SAW";
+this addBackpack "B_FieldPack_cbr";
+for "_i" from 1 to 3 do {this addItemToBackpack "hlc_200rnd_556x45_M_SAW";};
+this addHeadgear "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES";
+this addGoggles "CUP_FR_NeckScarf2";
+this addWeapon "hlc_m249_pip3";
+this addPrimaryWeaponItem "CUP_optic_HoloBlack";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

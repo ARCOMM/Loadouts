@@ -1,0 +1,27 @@
+this addWeapon "CUP_arifle_AKS74U";
+this addPrimaryWeaponItem "CUP_30Rnd_545x39_AK74_plum_M";
+this forceAddUniform "CFP_U_FieldUniform_anp_light";
+this addVest "CFP_ITV_Grenadier_ANP";
+this addBackpack "CFP_Kitbag_Drab";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+for "_i" from 1 to 3 do {this addItemToUniform "CUP_30Rnd_545x39_AK74_plum_M";};
+this addItemToVest "CUP_HandGrenade_M67";
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+this addItemToVest "CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M";
+for "_i" from 1 to 3 do {this addItemToVest "CUP_1Rnd_SMOKE_GP25_M";};
+for "_i" from 1 to 2 do {this addItemToVest "CUP_1Rnd_SmokeRed_GP25_M";};
+for "_i" from 1 to 2 do {this addItemToVest "CUP_1Rnd_SmokeGreen_GP25_M";};
+for "_i" from 1 to 7 do {this addItemToVest "CUP_30Rnd_545x39_AK74_plum_M";};
+for "_i" from 1 to 25 do {this addItemToBackpack "ACE_fieldDressing";};
+for "_i" from 1 to 5 do {this addItemToBackpack "ACE_bodyBag";};
+for "_i" from 1 to 10 do {this addItemToBackpack "ACE_epinephrine";};
+for "_i" from 1 to 15 do {this addItemToBackpack "ACE_morphine";};
+for "_i" from 1 to 5 do {this addItemToBackpack "ACE_personalAidKit";};
+for "_i" from 1 to 5 do {this addItemToBackpack "ACE_salineIV_500";};
+for "_i" from 1 to 10 do {this addItemToBackpack "ACE_tourniquet";};
+this addHeadgear "CFP_PatrolCap_ANP";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+

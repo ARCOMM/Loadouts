@@ -1,0 +1,18 @@
+this forceAddUniform "CUP_U_B_CZ_Pilot_DST";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "CUP_17Rnd_9x19_glock17";
+this addVest "CUP_V_B_PilotVest";
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {this addItemToVest "CUP_HandGrenade_M67";};
+for "_i" from 1 to 5 do {this addItemToVest "hlc_30rnd_556x45_EPR";};
+this addHeadgear "CUP_H_USMC_Helmet_Pilot";
+this addGoggles "G_Combat";
+this addWeapon "hlc_rifle_M4";
+this addWeapon "CUP_hgun_Glock17_tan";
+this linkItem "ItemMap";
+this linkItem "ItemGPS";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "arcore_nightvision_Gen8";

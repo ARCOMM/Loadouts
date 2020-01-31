@@ -1,0 +1,14 @@
+this forceAddUniform "CUP_I_B_PMC_Unit_23";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "CUP_HandGrenade_M67";
+this addItemToUniform "SmokeShell";
+this addVest "usm_vest_LBE_rm";
+for "_i" from 1 to 10 do {this addItemToVest "hlc_20Rnd_762x51_B_fal";};
+this addHeadgear "H_Cap_blk";
+this addGoggles "G_Bandanna_beast";
+this addWeapon "hlc_rifle_FAL5000";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

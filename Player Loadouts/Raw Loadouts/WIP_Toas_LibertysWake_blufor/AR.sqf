@@ -1,0 +1,31 @@
+comment "Remove existing items";
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
+
+
+this forceAddUniform "U_B_CTRG_3";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_CableTie";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+for "_i" from 1 to 2 do {this addItemToUniform "SmokeShell";};
+for "_i" from 1 to 2 do {this addItemToUniform "CUP_HandGrenade_M67";};
+this addVest "V_PlateCarrier1_rgr_noflag_F";
+for "_i" from 1 to 3 do {this addItemToVest "hlc_50rnd_556x45_M";};
+this addBackpack "SP_Carryall_ATacsAU";
+for "_i" from 1 to 4 do {this addItemToBackpack "hlc_50rnd_556x45_M";};
+this addHeadgear "H_HelmetB_camo";
+this addGoggles "G_Bandanna_oli";
+this addWeapon "CUP_arifle_L86A2";
+this addWeapon "Binocular";
+this addPrimaryWeaponItem "CUP_optic_HoloBlack";
+this addPrimaryWeaponItem "hlc_50rnd_556x45_M";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

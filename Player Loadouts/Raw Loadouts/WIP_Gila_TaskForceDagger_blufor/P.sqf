@@ -1,0 +1,12 @@
+this forceAddUniform "U_B_PilotCoveralls";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "CUP_15Rnd_9x19_M9";
+for "_i" from 1 to 2 do {this addItemToUniform "SmokeShellGreen";};
+this addHeadgear "H_PilotHelmetFighter_B";
+this addWeapon "CUP_hgun_M9";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

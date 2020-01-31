@@ -1,0 +1,14 @@
+this forceAddUniform "CUP_U_B_CZ_Pilot_WDL";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "SmokeShell";
+this addVest "V_BandollierB_blk";
+for "_i" from 1 to 6 do {this addItemToVest "hlc_30Rnd_545x39_B_AK";};
+this addHeadgear "H_Cap_marshal";
+this addGoggles "G_Aviator";
+this addWeapon "hlc_rifle_aks74u";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

@@ -1,0 +1,26 @@
+this forceAddUniform "MNP_CombatUniform_Ranger_B";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_CableTie";
+this addItemToUniform "ACE_Flashlight_XL50";
+this addVest "CUP_V_B_Eagle_SPC_TL";
+for "_i" from 1 to 4 do {this addItemToVest "CUP_20Rnd_762x51_B_SCAR";};
+for "_i" from 1 to 2 do {this addItemToVest "CUP_20Rnd_TE1_Red_Tracer_762x51_SCAR";};
+for "_i" from 1 to 2 do {this addItemToVest "CUP_HandGrenade_M67";};
+this addItemToVest "SmokeShell";
+this addBackpack "CUP_B_USPack_Coyote";
+for "_i" from 1 to 2 do {this addItemToBackpack "hlc_200rnd_556x45_M_SAW";};
+this addHeadgear "CUP_H_CZ_Helmet07";
+this addWeapon "CUP_arifle_Mk17_STD_woodland";
+this addPrimaryWeaponItem "CUP_muzzle_mfsup_Flashhider_762x51_Black";
+this addPrimaryWeaponItem "CUP_acc_Flashlight";
+this addPrimaryWeaponItem "CUP_optic_CompM2_Woodland";
+this linkItem "ItemWatch";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+for "_i" from 1 to 2 do {this addItemToVest "11Rnd_45ACP_Mag";};
+
+this addWeapon "hgun_Pistol_heavy_01_F";

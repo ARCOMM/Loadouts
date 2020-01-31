@@ -1,0 +1,10 @@
+this forceAddUniform "CUP_U_O_SLA_Desert";
+for "_i" from 1 to 2 do {this addItemToUniform "CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M";};
+this addVest "CUP_V_CDF_6B3_1_Green";
+for "_i" from 1 to 2 do {this addItemToVest "CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M";};
+this addBackpack "B_Carryall_cbr";
+this addItemToBackpack "CUP_AT13_M";
+this addHeadgear "CUP_H_RUS_6B27";
+this addWeapon "CUP_arifle_AKS74U";
+this addWeapon "CUP_launch_Metis";
+this linkItem "ItemRadio";

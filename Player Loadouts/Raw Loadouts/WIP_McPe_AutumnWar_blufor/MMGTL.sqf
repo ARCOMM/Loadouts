@@ -1,0 +1,14 @@
+this forceAddUniform "CUP_U_C_Woodlander_04";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_Fortify";
+for "_i" from 1 to 4 do {this addItemToUniform "CUP_8Rnd_9x18_Makarov_M";};
+this addVest "CUP_V_O_TK_CrewBelt";
+this addItemToVest "CUP_HandGrenade_RGD5";
+for "_i" from 1 to 2 do {this addItemToVest "CUP_5Rnd_127x108_KSVK_M";};
+this addBackpack "CUP_B_AlicePack_Khaki";
+for "_i" from 1 to 7 do {this addItemToBackpack "CUP_5Rnd_127x108_KSVK_M";};
+this addHeadgear "CUP_H_C_Ushanka_01";
+this addWeapon "CUP_srifle_ksvk";
+this addPrimaryWeaponItem "CUP_optic_PSO_1";
+this addWeapon "CUP_hgun_Makarov";

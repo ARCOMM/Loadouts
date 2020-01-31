@@ -1,0 +1,13 @@
+this forceAddUniform "U_NikosBody";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "SmokeShell";
+this addVest "V_BandollierB_ghex_F";
+for "_i" from 1 to 5 do {this addItemToVest "hlc_30Rnd_545x39_B_AK";};
+this addGoggles "G_Squares_Tinted";
+this addWeapon "hlc_rifle_aks74u";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

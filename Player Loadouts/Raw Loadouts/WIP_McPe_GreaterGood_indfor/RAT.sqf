@@ -1,0 +1,17 @@
+this forceAddUniform "U_TIOW_Fire_Warrior";
+this addItemToUniform "ACE_morphine";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_tourniquet";
+this addVest "TIOW_Tau_BeltB_Photon";
+for "_i" from 1 to 4 do {this addItemToVest "HandGrenade";};
+for "_i" from 1 to 4 do {this addItemToVest "TIOW_pulse_blaster_mag";};
+for "_i" from 1 to 4 do {this addItemToVest "TIOW_pulse_pistol_mag";};
+this addBackpack "TIOW_Tau_Bck_Breacher";
+for "_i" from 1 to 6 do {this addItemToBackpack "TIOW_pulse_blaster_mag";};
+this addHeadgear "TIOW_Tau_HelmetB2";
+this addWeapon "TIOW_pulse_blaster";
+this addWeapon "TIOW_pulse_pistol";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+[this,"tau_male_3","ace_novoice"] call BIS_fnc_setIdentity;

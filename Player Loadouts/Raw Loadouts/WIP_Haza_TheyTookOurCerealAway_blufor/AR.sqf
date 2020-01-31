@@ -1,0 +1,23 @@
+this forceAddUniform "MNP_CombatUniform_Wood_B";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addVest "MNP_Vest_M81b";
+this addItemToVest "hlc_200rnd_556x45_T_SAW";
+this addItemToVest "ACE_HandFlare_White";
+this addHeadgear "MNP_Boonie_USW";
+this addBackpack "MNP_B_WD_FP";
+for "_i" from 1 to 3 do {this addItemToBackpack "hlc_13Rnd_9x19_B_P228";};
+for "_i" from 1 to 2 do {this addItemToBackpack "hlc_200rnd_556x45_T_SAW";};
+for "_i" from 1 to 2 do {this addItemToBackpack "ACE_M84";};
+this addWeapon "CUP_lmg_m249_pip4";
+this addPrimaryWeaponItem "acc_flashlight";
+this addWeapon "hlc_pistol_P229R_Combat";
+this addHandgunItem "hlc_acc_DBALPL";
+this addHandgunItem "HLC_optic228_VTAC";
+
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ACE_Altimeter";
+this linkItem "ItemRadio";

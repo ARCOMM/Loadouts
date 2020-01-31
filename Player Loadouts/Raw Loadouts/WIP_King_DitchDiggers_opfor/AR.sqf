@@ -1,0 +1,15 @@
+this forceAddUniform "CUP_U_O_TK_Green";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+for "_i" from 1 to 3 do {this addItemToUniform "hlc_15Rnd_9x19_B_P226";};
+this addVest "CUP_V_RUS_6B3_1";
+this addItemToVest "hlc_250Rnd_762x51_T_MG3";
+this addBackpack "B_TacticalPack_oli";
+for "_i" from 1 to 2 do {this addItemToBackpack "hlc_250Rnd_762x51_T_MG3";};
+this addHeadgear "CUP_H_SLA_Helmet";
+this addWeapon "hlc_lmg_MG3";
+this addWeapon "hlc_pistol_P226WestGerman";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

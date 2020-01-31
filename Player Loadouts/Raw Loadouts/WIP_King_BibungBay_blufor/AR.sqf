@@ -1,0 +1,16 @@
+this forceAddUniform "usm_bdu_w";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addVest "usm_vest_rba_lbv_mg";
+for "_i" from 1 to 2 do {this addItemToVest "CUP_7Rnd_45ACP_1911";};
+for "_i" from 1 to 4 do {this addItemToVest "CUP_HandGrenade_M67";};
+for "_i" from 1 to 4 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 6 do {this addItemToVest "hlc_100Rnd_762x51_T_M60E4";};
+this addBackpack "usm_pack_200rnd_556_bandoliers";
+this addHeadgear "usm_helmet_pasgt_g_w";
+this addWeapon "hlc_lmg_m60";
+this addWeapon "CUP_hgun_Colt1911";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

@@ -1,0 +1,16 @@
+this forceAddUniform "U_BG_leader";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addVest "V_TacVest_camo";
+for "_i" from 1 to 5 do {this addItemToVest "hlc_30Rnd_545x39_B_AK";};
+for "_i" from 1 to 3 do {this addItemToVest "hlc_30Rnd_545x39_t_ak";};
+this addBackpack "CUP_B_CivPack_WDL";
+for "_i" from 1 to 20 do {this addItemToBackpack "ACE_fieldDressing";};
+for "_i" from 1 to 10 do {this addItemToBackpack "ACE_epinephrine";};
+for "_i" from 1 to 10 do {this addItemToBackpack "ACE_morphine";};
+for "_i" from 1 to 7 do {this addItemToBackpack "ACE_personalAidKit";};
+for "_i" from 1 to 2 do {this addItemToBackpack "SmokeShell";};
+this addWeapon "hlc_rifle_ak74";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

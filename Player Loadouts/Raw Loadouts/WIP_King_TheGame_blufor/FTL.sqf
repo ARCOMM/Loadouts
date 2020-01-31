@@ -1,0 +1,18 @@
+this forceAddUniform "CUP_U_C_Policeman_01";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_epinephrine";
+this addItemToUniform "ACE_CableTie";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_tourniquet";
+this addVest "CUP_V_C_Police_Holster";
+for "_i" from 1 to 10 do {this addItemToVest "CUP_15Rnd_9x19_M9";};
+for "_i" from 1 to 4 do {this addItemToVest "ACE_M84";};
+this addBackpack "B_LegStrapBag_black_F";
+this addHeadgear "CUP_H_C_Policecap_01";
+this addWeapon "CUP_hgun_BallisticShield_Armed";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

@@ -1,0 +1,26 @@
+this forceAddUniform "MNP_CombatUniform_USMC_arctic";
+for "_i" from 1 to 5 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+for "_i" from 1 to 2 do {this addItemToUniform "CUP_HandGrenade_M67";};
+for "_i" from 1 to 2 do {this addItemToUniform "Smokeshell";};
+this addVest "CUP_V_PMC_CIRAS_Winter_TL";
+for "_i" from 1 to 8 do {this addItemToVest "hlc_30rnd_556x45_Tracers_G36";};
+this addItemToVest "30rnd_9x21_Yellow_Mag";
+this addBackpack "MNP_B_WB_KB";
+for "_i" from 1 to 5 do {this addItemToBackpack "CUP_1Rnd_HEDP_M203";};
+for "_i" from 1 to 2 do {this addItemToBackpack "CUP_FlareRed_M203";};
+for "_i" from 1 to 5 do {this addItemToBackpack "CUP_1Rnd_Smoke_M203";};
+this addHeadgear "MNP_Helmet_USMC_arctic";
+this addWeapon "hlc_rifle_G36KSKAG36";
+this addPrimaryWeaponItem "optic_holosight_blk_f";
+this addPrimaryWeaponItem "acc_flashlight";
+this addWeapon "hgun_P07_khk_F";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";
+this addGoggles "G_Balaclava_lowprofile";
+

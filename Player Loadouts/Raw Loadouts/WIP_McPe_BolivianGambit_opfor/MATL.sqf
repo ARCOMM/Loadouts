@@ -1,0 +1,17 @@
+this forceAddUniform "CUP_I_B_PMC_Unit_22";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "CUP_HandGrenade_M67";
+this addItemToUniform "SmokeShell";
+this addVest "V_I_G_resistanceLeader_F";
+for "_i" from 1 to 7 do {this addItemToVest "hlc_30Rnd_545x39_B_AK";};
+this addBackpack "CUP_B_RPGPack_Khaki";
+this addItemToBackpack "CUP_OG7_M";
+for "_i" from 1 to 2 do {this addItemToBackpack "CUP_PG7VM_M";};
+this addHeadgear "H_Bandanna_surfer";
+this addWeapon "hlc_rifle_ak74";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

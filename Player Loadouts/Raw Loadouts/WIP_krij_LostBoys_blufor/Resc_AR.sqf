@@ -1,0 +1,21 @@
+this forceAddUniform "MNP_CombatUniform_DS_B";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_CableTie";
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_IR_Strobe_Item";
+this addVest "CUP_V_B_RRV_DA1";
+for "_i" from 1 to 2 do {this addItemToVest "CUP_17Rnd_9x19_glock17";};
+this addItemToVest "hlc_200rnd_556x45_M_SAW";
+this addBackpack "B_AssaultPack_cbr";
+for "_i" from 1 to 2 do {this addItemToBackpack "hlc_200rnd_556x45_M_SAW";};
+this addHeadgear "CUP_H_USArmy_Helmet_ECH1_Sand";
+this addWeapon "hlc_m249_pip2";
+this addWeapon "CUP_hgun_Glock17_blk";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";
+this linkItem "ACE_NVG_Wide";
+

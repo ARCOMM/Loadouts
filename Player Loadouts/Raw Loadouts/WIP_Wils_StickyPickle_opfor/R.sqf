@@ -1,0 +1,16 @@
+this forceAddUniform "MNP_CombatUniform_Militia_DB";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_EntrenchingTool";
+this addVest "MNP_Vest_Olive_1";
+for "_i" from 1 to 7 do {this addItemToVest "CUP_30Rnd_545x39_AK_M";};
+for "_i" from 1 to 3 do {this addItemToVest "CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+this addItemToVest "CUP_HandGrenade_M67";
+this addBackpack "B_Kitbag_cbr";
+this addHeadgear "CUP_H_TK_Helmet";
+this addWeapon "CUP_arifle_AK74";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

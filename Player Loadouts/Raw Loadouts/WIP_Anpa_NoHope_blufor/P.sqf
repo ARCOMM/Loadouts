@@ -1,0 +1,17 @@
+this forceAddUniform "usm_bdu_odg";
+this addVest "usm_vest_LBE_rm";
+for "_i" from 1 to 3 do {this addItemToVest "ACE_fieldDressing";};
+this addItemToVest "ACE_morphine";
+this addItemToVest "ACE_tourniquet";
+for "_i" from 1 to 3 do {this addItemToVest "ACE_HandFlare_Red";};
+this addItemToVest "SmokeShell";
+this addItemToVest "CUP_HandGrenade_M67";
+this addItemToVest "ACE_HandFlare_Green";
+this addItemToVest "ACE_Flashlight_XL50";
+for "_i" from 1 to 4 do {this addItemToVest "RH_20Rnd_556x45";};
+this addHeadgear "usm_helmet_cvc";
+this addWeapon "RH_M16a1";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

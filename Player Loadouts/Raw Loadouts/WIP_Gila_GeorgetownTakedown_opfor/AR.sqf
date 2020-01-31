@@ -1,0 +1,18 @@
+this forceAddUniform "CUP_I_B_PMC_Unit_17";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "hlc_12Rnd_357SIG_B_P226";
+this addVest "CUP_V_PMC_CIRAS_Black_Empty";
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 3 do {this addItemToVest "hlc_50rnd_556x45_EPR";};
+this addBackpack "CUP_B_USPack_Black";
+for "_i" from 1 to 7 do {this addItemToBackpack "hlc_50rnd_556x45_EPR";};
+this addGoggles "G_Balaclava_blk";
+this addWeapon "hlc_rifle_Colt727_x15";
+this addWeapon "hlc_pistol_P226R_357Elite";
+this addHandgunItem "hlc_acc_TLR1";
+this addHandgunItem "HLC_optic_Siglite";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

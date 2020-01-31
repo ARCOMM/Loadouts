@@ -1,0 +1,18 @@
+this forceAddUniform "usm_bdu_dcu_m";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "CUP_17Rnd_9x19_glock17";
+this addVest "MNP_Vest_USMC_2";
+for "_i" from 1 to 3 do {this addItemToVest "1Rnd_HE_Grenade_shell";};
+for "_i" from 1 to 6 do {this addItemToVest "1Rnd_SmokeRed_Grenade_shell";};
+for "_i" from 1 to 10 do {this addItemToVest "hlc_30rnd_556x45_EPR";};
+this addHeadgear "usm_bdu_cap_dcu";
+this addGoggles "CUP_FR_NeckScarf2";
+this addWeapon "hlc_rifle_Colt727_GL";
+this addWeapon "CUP_hgun_Glock17_tan";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

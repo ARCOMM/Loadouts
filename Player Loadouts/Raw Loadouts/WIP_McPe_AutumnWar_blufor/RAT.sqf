@@ -1,0 +1,14 @@
+this forceAddUniform "CUP_U_C_Worker_04";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_Fortify";
+this addItemToUniform "ACE_tourniquet";
+this addVest "CUP_V_B_ALICE";
+this addItemToVest "CUP_HandGrenade_RGD5";
+for "_i" from 1 to 9 do {this addItemToVest "CUP_10Rnd_762x39_SaigaMk03_M";};
+this addHeadgear "CUP_H_C_Beret_04";
+this addWeapon "CUP_arifle_SAIGA_MK03";
+this addWeapon "CUP_launch_RPG18";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

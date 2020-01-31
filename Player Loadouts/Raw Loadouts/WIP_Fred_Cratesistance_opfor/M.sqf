@@ -1,0 +1,14 @@
+this call compile preprocessFileLineNumbers "loadouts\opfor\BASE.sqf";
+this addBackpack "CUP_B_SLA_Medicbag";
+for "_i" from 1 to 30 do {this addItemToBackpack "ACE_fieldDressing";};
+for "_i" from 1 to 10 do {this addItemToBackpack "ACE_epinephrine";};
+for "_i" from 1 to 20 do {this addItemToBackpack "ACE_morphine";};
+for "_i" from 1 to 5 do {this addItemToBackpack "ACE_salineIV_500";};
+for "_i" from 1 to 3 do {this addItemToBackpack "ACE_tourniquet";};
+for "_i" from 1 to 2 do {this addItemToBackpack "ACE_personalAidKit";};
+for "_i" from 1 to 4 do {this addItem "CUP_30Rnd_762x39_AK47_bakelite_M";};
+for "_i" from 1 to 2 do {this addItem "CUP_30Rnd_TE1_Green_Tracer_762x39_AK47_bakelite_M";};
+this addWeapon selectRandom ["CUP_arifle_AK47_Early", "CUP_arifle_AKM_Early", "CUP_arifle_AKMS_Early", "CUP_arifle_AKS"];
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

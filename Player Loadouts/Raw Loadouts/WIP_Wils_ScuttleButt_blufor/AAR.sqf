@@ -1,0 +1,22 @@
+
+this forceAddUniform "MNP_CombatUniform_NOR_B";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+ for "_i" from 1 to 3 do {this addItemToVest "CUP_18Rnd_9x19_Phantom";};
+this addVest "MNP_Vest_NOR_2";
+for "_i" from 1 to 7 do {this addItemToVest "ACE_30Rnd_556x45_Stanag_Mk318_mag";};
+for "_i" from 1 to 4 do {this addItemToVest "30Rnd_556x45_Stanag_Tracer_Red";};
+this addItemToVest "CUP_HandGrenade_M67";
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+this addBackpack "B_Kitbag_rgr";
+this addItemToBackpack "hlc_200rnd_556x45_M_SAW";
+for "_i" from 1 to 2 do {this addItemToBackpack "hlc_200rnd_556x45_B_SAW";};
+this addHeadgear "MNP_Helmet_DS";
+this addWeapon "arifle_SPAR_01_blk_F";
+this addPrimaryWeaponItem "CUP_optic_CompM4";
+this addWeapon "CUP_hgun_Phantom";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

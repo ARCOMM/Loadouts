@@ -1,0 +1,11 @@
+this forceAddUniform "CUP_U_O_SLA_Desert";
+for "_i" from 1 to 2 do {this addItemToUniform "hlc_30Rnd_762x39_t_ak";};
+this addVest "CUP_V_RUS_6B3_4";
+for "_i" from 1 to 6 do {this addItemToVest "hlc_30Rnd_762x39_t_ak";};
+this addHeadgear "CUP_H_RUS_6B27_NVG";
+this addGoggles "G_Aviator";
+this addWeapon "CUP_arifle_AKM";
+this addPrimaryWeaponItem "hlc_optic_kobra";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemRadio";

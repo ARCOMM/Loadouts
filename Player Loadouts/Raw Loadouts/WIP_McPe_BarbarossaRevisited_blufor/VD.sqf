@@ -1,0 +1,17 @@
+this forceAddUniform "CUP_U_B_GER_Flecktarn_2";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+for "_i" from 1 to 3 do {this addItemToUniform "CUP_17Rnd_9x19_glock17";};
+this addVest "CUP_V_B_GER_Carrier_Rig";
+this addItemToVest "SmokeShell";
+this addItemToVest "HandGrenade";
+for "_i" from 1 to 4 do {this addItemToVest "hlc_30rnd_556x45_EPR_G36";};
+this addBackpack "CUP_B_GER_Pack_Flecktarn";
+this addItemToBackpack "ToolKit";
+this addHeadgear "CUP_H_CZ_Helmet05";
+this addWeapon "hlc_rifle_G36C";
+this addWeapon "CUP_hgun_Glock17_blk";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
