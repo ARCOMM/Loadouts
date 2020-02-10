@@ -1,0 +1,17 @@
+this forceAddUniform "MNP_CombatUniform_Wood_B";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addVest "MNP_Vest_M81b";
+for "_i" from 1 to 6 do {this addItemToVest "30Rnd_556x45_Stanag_Tracer_Red";};
+this addItemToVest "ACE_HandFlare_White";
+this addBackpack "MNP_B_WD_FP";
+for "_i" from 1 to 2 do {this addItemToBackpack "hlc_200rnd_556x45_T_SAW";};
+this addHeadgear "MNP_Boonie_USW";
+this addWeapon "CUP_arifle_M4A1_camo";
+this addPrimaryWeaponItem "acc_flashlight";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ACE_Altimeter";
+this linkItem "ItemRadio";

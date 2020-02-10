@@ -1,0 +1,17 @@
+this forceAddUniform "CUP_U_I_GUE_Anorak_02";
+this addItemToUniform "16Rnd_9x21_Mag";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 2 do {this addItemToUniform "SmokeShell";};
+for "_i" from 1 to 2 do {this addItemToUniform "CUP_HandGrenade_RGD5";};
+this addVest "V_TacChestrig_oli_F";
+for "_i" from 1 to 7 do {this addItemToVest "hlc_30Rnd_545x39_B_AK";};
+for "_i" from 1 to 4 do {this addItemToVest "hlc_VOG25_AK";};
+for "_i" from 1 to 4 do {this addItemToVest "hlc_GRD_Red";};
+this addHeadgear "H_Beret_blk";
+this addGoggles "G_Bandanna_aviator";
+this addWeapon "hlc_rifle_aks74_GL";
+this addWeapon "hgun_Rook40_F";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

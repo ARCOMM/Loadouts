@@ -1,0 +1,18 @@
+this forceAddUniform "U_B_GEN_Commander_F";
+for "_i" from 1 to 5 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+for "_i" from 1 to 2 do {this addItemToUniform "SmokeShell";};
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_M84";};
+this addVest "V_TacVest_gen_F";
+for "_i" from 1 to 2 do {this addItemToVest "150Rnd_556x45_Drum_Mag_F";};
+this addBackpack "B_ViperHarness_blk_F";
+for "_i" from 1 to 4 do {this addItemToBackpack "150Rnd_556x45_Drum_Mag_F";};
+this addHeadgear "MNP_Helmet_PAGST_BK";
+this addWeapon "hlc_rifle_416D165";
+this addPrimaryWeaponItem "optic_aco";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this addGoggles "G_Tactical_Clear";

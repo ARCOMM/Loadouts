@@ -1,0 +1,18 @@
+this forceAddUniform "CUP_I_B_PMC_Unit_8";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "CUP_HandGrenade_M67";
+this addItemToUniform "SmokeShell";
+this addVest "V_I_G_resistanceLeader_F";
+for "_i" from 1 to 7 do {this addItemToVest "hlc_30Rnd_545x39_B_AK";};
+this addBackpack "B_AssaultPack_khk";
+for "_i" from 1 to 10 do {this addItemToBackpack "ACE_fieldDressing";};
+for "_i" from 1 to 5 do {this addItemToBackpack "ACE_morphine";};
+for "_i" from 1 to 5 do {this addItemToBackpack "ACE_epinephrine";};
+for "_i" from 1 to 3 do {this addItemToBackpack "ACE_personalAidKit";};
+this addHeadgear "H_Cap_surfer";
+this addWeapon "hlc_rifle_aks74";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

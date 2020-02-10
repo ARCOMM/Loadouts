@@ -1,0 +1,18 @@
+this forceAddUniform "rhs_uniform_g3_m81";
+this addVest "V_PlateCarrier1_rgr";
+for "_i" from 1 to 2 do {this addItemToVest "ACE_fieldDressing";};
+this addItemToVest "ACE_morphine";
+this addItemToVest "ACE_tourniquet";
+this addItemToVest "HandGrenade";
+this addItemToVest "SmokeShell";
+for "_i" from 1 to 3 do {this addItemToVest "30Rnd_556x45_Stanag_Tracer_Green";};
+for "_i" from 1 to 6 do {this addItemToVest "30Rnd_556x45_Stanag_green";};
+this addBackpack "B_TacticalPack_blk";
+for "_i" from 1 to 2 do {this addItemToBackpack "150Rnd_762x54_Box_Tracer";};
+for "_i" from 1 to 2 do {this addItemToBackpack "150Rnd_762x54_Box";};
+this addHeadgear "H_HelmetB";
+this addWeapon "arifle_Mk20C_plain_F";
+this addPrimaryWeaponItem "optic_Aco";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

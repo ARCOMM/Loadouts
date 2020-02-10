@@ -1,0 +1,18 @@
+this forceAddUniform "MNP_CombatUniform_RU_Med_D";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "16Rnd_9x21_Mag";
+this addVest "MNP_Vest_RU_D";
+for "_i" from 1 to 2 do {this addItemToVest "CUP_HandGrenade_RGD5";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 10 do {this addItemToVest "hlc_30Rnd_545x39_B_AK";};
+this addHeadgear "MNP_Helmet_RU_LD";
+this addGoggles "G_Bandanna_blk";
+this addWeapon "hlc_rifle_ak12";
+this addWeapon "CUP_launch_RPG18";
+this addWeapon "CUP_hgun_Duty";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

@@ -1,0 +1,14 @@
+this call compile preprocessFileLineNumbers "loadouts\opfor\BASE.sqf";
+this addVest "CUP_V_O_SLA_Carrier_Belt03";
+this addBackpack "usm_pack_st138_prc77";
+this addItem "ACE_MapTools";
+for "_i" from 1 to 4 do {this addItem "CUP_30Rnd_762x39_AK47_bakelite_M";};
+for "_i" from 1 to 2 do {this addItem "CUP_30Rnd_TE1_Green_Tracer_762x39_AK47_bakelite_M";};
+for "_i" from 1 to 2 do {this addItem "CUP_1Rnd_HE_GP25_M";};
+for "_i" from 1 to 4 do {this addItem "CUP_1Rnd_SMOKE_GP25_M";};
+this addWeapon selectRandom ["CUP_arifle_AK47_GL_Early", "CUP_arifle_AKM_GL_Early"];
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

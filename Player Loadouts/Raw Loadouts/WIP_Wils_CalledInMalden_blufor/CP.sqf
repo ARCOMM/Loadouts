@@ -1,0 +1,17 @@
+this forceAddUniform "U_B_PilotCoveralls";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_epinephrine";
+this addVest "V_TacVestIR_blk";
+for "_i" from 1 to 6 do {this addItemToVest "hlc_30Rnd_9x19_B_MP5";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShellOrange";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {this addItemToVest "hlc_15Rnd_9x19_B_P226";};
+this addHeadgear "H_PilotHelmetHeli_B";
+this addWeapon "hlc_smg_mp5k_PDW";
+this addWeapon "hlc_pistol_P229R_Elite";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

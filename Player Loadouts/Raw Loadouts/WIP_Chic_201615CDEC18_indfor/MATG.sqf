@@ -1,0 +1,10 @@
+this forceAddUniform "CUP_U_O_Partisan_VSR_Mixed2";
+for "_i" from 1 to 3 do {this addItemToUniform "hlc_30rnd_556x45_EPR";};
+this addVest "CUP_V_I_RACS_Carrier_Vest_wdl_2";
+for "_i" from 1 to 4 do {this addItemToVest "30Rnd_556x45_Stanag_Tracer_Yellow";};
+this addBackpack "B_Carryall_oli";
+this addItemToBackpack "CUP_Dragon_EP1_M";
+this addHeadgear "CUP_H_CZ_Hat01";
+this addWeapon "RH_M16A2";
+this addWeapon "CUP_launch_M47";
+this linkItem "ItemRadio";

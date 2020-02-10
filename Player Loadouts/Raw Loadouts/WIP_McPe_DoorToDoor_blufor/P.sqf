@@ -1,0 +1,12 @@
+this forceAddUniform "usm_bdu_odg";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_CableTie";
+this addItemToUniform "ACE_morphine";
+this addVest "usm_vest_LBE_rmp_m";
+for "_i" from 1 to 3 do {this addItemToVest "CUP_7Rnd_45ACP_1911";};
+this addHeadgear "CUP_H_USMC_Helmet_Pilot";
+this addWeapon "CUP_hgun_Colt1911";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

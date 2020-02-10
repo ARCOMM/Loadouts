@@ -1,0 +1,18 @@
+this forceAddUniform "CUP_U_B_USArmy_TwoKnee";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACRE_PRC343";
+for "_i" from 1 to 3 do {this addItemToUniform "hlc_30rnd_556x45_EPR";};
+for "_i" from 1 to 3 do {this addItemToUniform "SmokeShellGreen";};
+this addVest "CUP_V_B_IOTV_tl";
+for "_i" from 1 to 3 do {this addItemToVest "CUP_15Rnd_9x19_M9";};
+this addBackpack "CUP_B_AssaultPack_ACU";
+this addItemToBackpack "ToolKit";
+this addHeadgear "CUP_H_USMC_Crew_Helmet";
+this addWeapon "hlc_rifle_Colt727";
+this addWeapon "CUP_hgun_M9";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

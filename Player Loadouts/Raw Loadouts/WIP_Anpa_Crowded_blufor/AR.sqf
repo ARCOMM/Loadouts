@@ -1,0 +1,16 @@
+this forceAddUniform "rhs_uniform_g3_m81";
+this addVest "V_PlateCarrier1_rgr";
+for "_i" from 1 to 2 do {this addItemToVest "ACE_fieldDressing";};
+this addItemToVest "ACE_morphine";
+this addItemToVest "ACE_tourniquet";
+this addItemToVest "HandGrenade";
+this addItemToVest "SmokeShell";
+this addBackpack "B_TacticalPack_blk";
+for "_i" from 1 to 2 do {this addItemToBackpack "150Rnd_762x54_Box_Tracer";};
+this addItemToBackpack "150Rnd_762x54_Box";
+this addHeadgear "H_HelmetB";
+this addWeapon "LMG_Zafir_F";
+this addPrimaryWeaponItem "rhsusf_acc_compm4";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

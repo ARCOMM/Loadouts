@@ -1,0 +1,17 @@
+this forceAddUniform "MNP_CombatUniform_RU_Med";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+for "_i" from 1 to 2 do {this addItemToUniform "CUP_8Rnd_9x18_Makarov_M";};
+this addVest "MNP_Vest_RU_T2";
+for "_i" from 1 to 6 do {this addItemToVest "CUP_30Rnd_545x39_AK_M";};
+for "_i" from 1 to 3 do {this addItemToVest "CUP_30Rnd_TE1_Green_Tracer_545x39_AK_M";};
+for "_i" from 1 to 2 do {this addItemToVest "CUP_HandGrenade_M67";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+this addHeadgear "MNP_Helmet_RU_LT";
+this addWeapon "CUP_arifle_AK74M";
+this addWeapon "CUP_launch_RPG18";
+this addWeapon "CUP_hgun_Makarov";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

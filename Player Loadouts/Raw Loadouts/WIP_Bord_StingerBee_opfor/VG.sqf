@@ -1,0 +1,18 @@
+this forceAddUniform "MNP_CombatUniform_RU_Med_DB";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_EarPlugs";
+this addItemToUniform "ACE_CableTie";
+this addVest "MNP_Vest_RU_D";
+for "_i" from 1 to 8 do {this addItemToVest "CUP_30Rnd_TE1_Yellow_Tracer_762x39_bakelite_AK103_M";};
+this addHeadgear "H_Tank_black_F";
+this addWeapon "CUP_arifle_AK103";
+this addPrimaryWeaponItem "CUP_optic_Kobra";
+this addBackpack "MNP_B_Carryall_PLA_Basic_D";
+this addItemToBackpack "ToolKit";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

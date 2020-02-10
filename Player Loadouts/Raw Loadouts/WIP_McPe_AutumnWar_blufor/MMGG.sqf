@@ -1,0 +1,16 @@
+this forceAddUniform "CUP_U_C_Villager_03";
+for "_i" from 1 to 4 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_Fortify";
+this addVest "CUP_V_B_ALICE";
+this addItemToVest "CUP_HandGrenade_RGD5";
+for "_i" from 1 to 6 do {this addItemToVest "CUP_20Rnd_762x39_AMD63_M";};
+this addBackpack "CUP_B_AlicePack_Khaki";
+for "_i" from 1 to 7 do {this addItemToBackpack "CUP_5Rnd_127x108_KSVK_M";};
+this addHeadgear "CUP_H_C_Beret_02";
+this addWeapon "CUP_arifle_AK47";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

@@ -1,0 +1,16 @@
+this forceAddUniform "MNP_CombatUniform_RU_Med_DB";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_EarPlugs";
+this addItemToUniform "ACE_CableTie";
+this addVest "MNP_Vest_RU_D";
+for "_i" from 1 to 3 do {this addItemToVest "SmokeShell";};
+this addBackpack "MNP_B_Carryall_PLA_Basic_D";
+for "_i" from 1 to 3 do {this addItemToBackpack "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Yellow_M";};
+this addHeadgear "SP_SSh68Helmet_Green2";
+this addWeapon "CUP_lmg_PKM";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

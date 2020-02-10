@@ -1,0 +1,14 @@
+this forceAddUniform "CUP_I_B_PMC_Unit_17";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addVest "CUP_V_PMC_CIRAS_Black_Patrol";
+for "_i" from 1 to 8 do {this addItemToVest "hlc_30rnd_68x43_FMJ";};
+this addItemToVest "CUP_HandGrenade_M67";
+this addItemToVest "SmokeShell";
+this addHeadgear "CUP_H_PMC_Cap_EP_Grey";
+this addWeapon "hlc_rifle_ACR68_aron";
+this addPrimaryWeaponItem "CUP_optic_HoloBlack";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

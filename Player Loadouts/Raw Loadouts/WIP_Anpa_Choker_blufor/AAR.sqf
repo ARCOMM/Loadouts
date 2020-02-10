@@ -1,0 +1,23 @@
+this forceAddUniform "usm_bdu_odg";
+this addVest "usm_vest_LBE_mg";
+for "_i" from 1 to 3 do {this addItemToVest "ACE_fieldDressing";};
+this addItemToVest "ACE_morphine";
+this addItemToVest "ACE_tourniquet";
+for "_i" from 1 to 3 do {this addItemToVest "ACE_HandFlare_Red";};
+this addItemToVest "SmokeShell";
+this addItemToVest "CUP_HandGrenade_M67";
+this addItemToVest "ACE_HandFlare_Green";
+for "_i" from 1 to 4 do {this addItemToVest "hlc_20Rnd_762x51_T_M14";};
+for "_i" from 1 to 3 do {this addItemToVest "hlc_20Rnd_762x51_B_M14";};
+this addBackpack "B_Carryall_oli";
+this addItemToBackpack "ACE_Flashlight_XL50";
+this addItemToBackpack "hlc_100Rnd_762x51_M_M60E4";
+for "_i" from 1 to 3 do {this addItemToBackpack "hlc_100Rnd_762x51_T_M60E4";};
+for "_i" from 1 to 2 do {this addItemToBackpack "hlc_20Rnd_762x51_T_M14";};
+this addHeadgear "CUP_H_USArmy_Helmet_M1_Olive";
+this addWeapon "hlc_rifle_M14_Rail";
+this addWeapon "CUP_hgun_Colt1911";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+

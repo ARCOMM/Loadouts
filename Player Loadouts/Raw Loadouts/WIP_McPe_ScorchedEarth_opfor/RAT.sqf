@@ -1,0 +1,20 @@
+this forceAddUniform "CUP_U_O_RUS_M88_MSV_rolled_up";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_CableTie";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "CUP_30Rnd_545x39_AK_M";
+this addVest "CUP_V_O_SLA_Flak_Vest03";
+this addItemToVest "CUP_HandGrenade_RGO";
+this addItemToVest "SmokeShell";
+for "_i" from 1 to 7 do {this addItemToVest "CUP_30Rnd_545x39_AK_M";};
+this addBackpack "CUP_B_RPGPack_Khaki";
+for "_i" from 1 to 2 do {this addItemToBackpack "CUP_PG7V_M";};
+this addItemToBackpack "CUP_OG7_M";
+this addHeadgear "CUP_H_SLA_Helmet_DES";
+this addWeapon "CUP_arifle_AKS74";
+this addWeapon "CUP_launch_RPG7V";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+

@@ -1,0 +1,18 @@
+this forceAddUniform "U_B_CombatUniform_mcam";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "16Rnd_9x21_Mag";
+this addVest "V_PlateCarrier1_rgr";
+for "_i" from 1 to 11 do {this addItemToVest "30Rnd_65x39_caseless_mag_Tracer";};
+for "_i" from 1 to 2 do {this addItemToVest "HandGrenade";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+this addHeadgear "H_HelmetB_snakeskin";
+this addGoggles "G_Combat_Goggles_tna_F";
+this addWeapon "arifle_MX_Black_F";
+this addPrimaryWeaponItem "optic_Holosight_blk_F";
+this addWeapon "hgun_P07_F";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

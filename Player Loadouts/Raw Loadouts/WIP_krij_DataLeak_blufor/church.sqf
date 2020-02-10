@@ -1,0 +1,13 @@
+this forceAddUniform "CUP_I_B_PMC_Unit_7";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+for "_i" from 1 to 3 do {this addItemToUniform "CUP_15Rnd_9x19_M9";};
+for "_i" from 1 to 2 do {this addItemToUniform "hlc_30Rnd_545x39_B_AK";};
+this addVest "CUP_V_PMC_CIRAS_Black_Empty";
+for "_i" from 1 to 5 do {this addItemToVest "hlc_30Rnd_545x39_B_AK";};
+this addHeadgear "CUP_H_FR_Headband_Headset";
+this addWeapon "hlc_rifle_aks74u";
+this addWeapon "CUP_hgun_M9";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

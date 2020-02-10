@@ -1,0 +1,16 @@
+this forceAddUniform "CUP_O_TKI_Khet_Partug_08";
+this addItemToUniform "ACE_morphine";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_Fortify";
+this addItemToUniform "hlc_30Rnd_762x39_b_ak";
+this addVest "CUP_V_RUS_Smersh_1";
+for "_i" from 1 to 2 do {this addItemToVest "CUP_HandGrenade_M67";};
+this addItemToVest "SmokeShell";
+for "_i" from 1 to 8 do {this addItemToVest "hlc_30Rnd_762x39_b_ak";};
+this addHeadgear "CUP_H_TKI_SkullCap_01";
+this addGoggles "CUP_TK_NeckScarf";
+this addWeapon "hlc_rifle_akm";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

@@ -1,0 +1,17 @@
+this forceAddUniform "MNP_CombatUniform_TIG";
+this addItemToUniform "SmokeShellGreen";
+this addVest "MNP_Vest_RUMED";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+for "_i" from 1 to 2 do {this addItemToVest "Chemlight_green";};
+for "_i" from 1 to 6 do {this addItemToVest "CUP_30Rnd_762x39_AK47_M";};
+for "_i" from 1 to 2 do {this addItemToVest "CUP_HandGrenade_RGD5";};
+this addHeadgear "MNP_Helmet_SOVC_RU";
+this addWeapon "CUP_arifle_AKS";
+this addPrimaryWeaponItem "acc_flashlight";
+this addPrimaryWeaponItem "optic_Aco";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";

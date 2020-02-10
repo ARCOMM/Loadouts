@@ -1,0 +1,20 @@
+this forceAddUniform "U_BG_Guerrilla_6_1";
+this addVest "V_TacVest_oli";
+for "_i" from 1 to 2 do {this addItemToVest "ACE_fieldDressing";};
+this addItemToVest "ACE_morphine";
+this addItemToVest "ACE_tourniquet";
+for "_i" from 1 to 5 do {this addItemToVest "30Rnd_556x45_Stanag";};
+for "_i" from 1 to 4 do {this addItemToVest "30Rnd_556x45_Stanag_Tracer_Yellow";};
+this addBackpack "B_Carryall_cbr";
+this addItemToBackpack "HandGrenade";
+this addItemToBackpack "SmokeShell";
+this addItemToBackpack "16Rnd_9x21_Mag";
+this addItemToBackpack "200Rnd_65x39_cased_Box_Tracer";
+for "_i" from 1 to 3 do {this addItemToBackpack "200Rnd_65x39_cased_Box";};
+this addHeadgear "H_Shemag_olive_hs";
+this addWeapon "arifle_TRG21_F";
+this addWeapon "rhs_weap_pya";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+

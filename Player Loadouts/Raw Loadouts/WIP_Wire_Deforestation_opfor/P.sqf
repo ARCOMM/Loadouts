@@ -1,0 +1,17 @@
+this addWeapon "SMG_03C_camo";
+this addPrimaryWeaponItem "50Rnd_570x28_SMG_03";
+this forceAddUniform "U_I_HeliPilotCoveralls";
+this addVest "V_PlateCarrierIA1_dgtl";
+this addWeapon "Binocular";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+for "_i" from 1 to 6 do {this addItemToVest "50Rnd_570x28_SMG_03";};
+this addItemToVest "HandGrenade";
+this addItemToVest "SmokeShell";
+this addHeadgear "H_PilotHelmetHeli_I";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemRadio";
+this linkItem "ItemGPS";

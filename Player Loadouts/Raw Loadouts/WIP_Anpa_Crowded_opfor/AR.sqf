@@ -1,0 +1,18 @@
+this forceAddUniform "U_BG_Guerilla2_2";
+this addVest "V_TacVest_oli";
+for "_i" from 1 to 2 do {this addItemToVest "ACE_fieldDressing";};
+this addItemToVest "ACE_morphine";
+this addItemToVest "ACE_tourniquet";
+this addBackpack "B_TacticalPack_rgr";
+this addItemToBackpack "HandGrenade";
+this addItemToBackpack "SmokeShell";
+this addItemToBackpack "16Rnd_9x21_Mag";
+this addItemToBackpack "200Rnd_65x39_cased_Box_Tracer";
+for "_i" from 1 to 2 do {this addItemToBackpack "200Rnd_65x39_cased_Box";};
+this addHeadgear "H_Bandanna_khk";
+this addWeapon "LMG_Mk200_F";
+this addPrimaryWeaponItem "optic_Holosight";
+this addWeapon "rhs_weap_pya";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

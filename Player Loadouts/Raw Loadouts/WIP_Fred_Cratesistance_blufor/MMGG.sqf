@@ -1,0 +1,11 @@
+this call compile preprocessFileLineNumbers "loadouts\blufor\BASE.sqf";
+this addVest "CUP_V_CDF_6B3_3_FST";
+for "_i" from 1 to 2 do {this addItemToVest "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";};
+this addBackpack "CUP_B_AlicePack_OD";
+for "_i" from 1 to 2 do {this addItemToBackpack "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";};
+this addWeapon "CUP_lmg_Pecheneg";
+this addPrimaryWeaponItem "cup_optic_pechenegscope";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

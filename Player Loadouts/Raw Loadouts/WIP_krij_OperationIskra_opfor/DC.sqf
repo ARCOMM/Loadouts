@@ -1,0 +1,21 @@
+this forceAddUniform "rhs_uniform_m88_patchless";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_EarPlugs";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "rhs_30Rnd_545x39_AK";
+this addItemToUniform "rhs_30Rnd_545x39_7N6_AK";
+this addVest "rhs_6b23_ML_6sh92_radio";
+this addItemToVest "rhs_mag_rgd5";
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_rdg2_white";};
+for "_i" from 1 to 3 do {this addItemToVest "rhs_30Rnd_545x39_AK";};
+for "_i" from 1 to 5 do {this addItemToVest "rhs_VOG25";};
+for "_i" from 1 to 2 do {this addItemToVest "rhs_30Rnd_545x39_7N6_AK";};
+this addHeadgear "rhs_6b27m_ML_ess_bala";
+this addWeapon "rhs_weap_ak74n_gp25";
+this addPrimaryWeaponItem "rhs_acc_dtk1983";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+

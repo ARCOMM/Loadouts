@@ -1,0 +1,16 @@
+this forceAddUniform "U_I_G_Story_Protagonist_F";
+this addItemToUniform "ACE_morphine";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_tourniquet";
+this addVest "V_Chestrig_blk";
+this addItemToVest "rhs_mag_m67";
+this addItemToVest "SmokeShell";
+for "_i" from 1 to 4 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855_Stanag";};
+for "_i" from 1 to 2 do {this addItemToVest "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red";};
+for "_i" from 1 to 3 do {this addItemToVest "rhs_mag_M441_HE";};
+this addHeadgear "rhsusf_opscore_bk_pelt";
+this addWeapon "rhs_weap_m4a1_carryhandle_m203S";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

@@ -1,0 +1,21 @@
+this forceAddUniform "CFP_75th_CRYE_V4_Sleeved";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+for "_i" from 1 to 2 do {this addItemToUniform "SmokeShell";};
+this addVest "CFP_PlateCarrier1_Multicam";
+for "_i" from 1 to 9 do {this addItemToVest "CUP_30Rnd_556x45_Stanag";};
+for "_i" from 1 to 2 do {this addItemToVest "CUP_HandGrenade_M67";};
+this addBackpack "CFP_AssaultPack_Multicam";
+this addItemToBackpack "ToolKit";
+this addHeadgear "CUP_H_OpsCore_Covered_MCAM_US_SF";
+this addWeapon "CUP_arifle_Mk16_CQC_SFG_black";
+this addPrimaryWeaponItem "CUP_acc_Flashlight";
+this addPrimaryWeaponItem "CUP_optic_HoloBlack";
+this addWeapon "Binocular";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";
+

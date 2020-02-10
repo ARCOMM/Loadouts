@@ -1,0 +1,17 @@
+this forceAddUniform "U_I_C_Soldier_Bandit_3_F";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "16Rnd_9x21_Mag";
+this addVest "V_BandollierB_blk";
+for "_i" from 1 to 2 do {this addItemToVest "CUP_HandGrenade_RGD5";};
+for "_i" from 1 to 10 do {this addItemToVest "30Rnd_762x39_Mag_F";};
+this addBackpack "CUP_B_RPGPack_Khaki";
+this addItemToBackpack "CUP_OG7_M";
+this addItemToBackpack "CUP_OG7_M";
+this addGoggles "G_Balaclava_lowprofile";
+this addWeapon "arifle_AKM_F";
+this addWeapon "CUP_launch_RPG7V";
+this addWeapon "hgun_Rook40_F";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

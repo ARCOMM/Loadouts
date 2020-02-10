@@ -1,0 +1,17 @@
+this forceAddUniform "U_B_HeliPilotCoveralls";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_CableTie";
+this addItemToUniform "ACE_EarPlugs";
+this addItemToUniform "ACE_morphine";
+for "_i" from 1 to 2 do {this addItemToUniform "ACE_tourniquet";};
+for "_i" from 1 to 2 do {this addItemToUniform "16Rnd_9x21_Mag";};
+for "_i" from 1 to 2 do {this addItemToUniform "SmokeShell";};
+this addItemToUniform "Chemlight_red";
+this addHeadgear "H_PilotHelmetHeli_B";
+this addWeapon "hgun_P07_F";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";
+this linkItem "arcore_nightvision_Gen8";

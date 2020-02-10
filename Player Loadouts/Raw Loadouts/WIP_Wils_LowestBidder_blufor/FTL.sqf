@@ -1,0 +1,17 @@
+this forceAddUniform "U_B_GEN_Commander_F";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addVest "V_TacVest_gen_F";
+for "_i" from 1 to 3 do {this addItemToVest "hlc_30Rnd_556x45_T_sg550";};
+for "_i" from 1 to 5 do {this addItemToVest "hlc_30Rnd_556x45_EPR_sg550";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+for "_i" from 1 to 2 do {this addItemToVest "CUP_17Rnd_9x19_glock17";};
+this addBackpack "B_AssaultPack_blk";
+this addHeadgear "H_MilCap_gen_F";
+this addGoggles "G_Lady_Blue";
+this addWeapon "hlc_rifle_SG553SB";
+this addWeapon "CUP_hgun_Glock17_blk";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";

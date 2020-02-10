@@ -1,0 +1,18 @@
+this addWeapon "CUP_arifle_M4A1";
+this addPrimaryWeaponItem "CUP_30Rnd_556x45_Emag";
+this forceAddUniform "CFP_U_FieldUniform_idf";
+this addVest "CFP_PlateCarrier1_IDF";
+this addBackpack "B_AssaultPack_blk";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+for "_i" from 1 to 2 do {this addItemToVest "CUP_HandGrenade_M67";};
+this addItemToVest "SmokeShell";
+for "_i" from 1 to 7 do {this addItemToVest "CUP_30Rnd_556x45_Emag";};
+for "_i" from 1 to 10 do {this addItemToBackpack "ACE_fieldDressing";};
+for "_i" from 1 to 5 do {this addItemToBackpack "ACE_epinephrine";};
+for "_i" from 1 to 5 do {this addItemToBackpack "ACE_morphine";};
+for "_i" from 1 to 3 do {this addItemToBackpack "ACE_personalAidKit";};
+this addHeadgear "CFP_MitzHelm1_Des2";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

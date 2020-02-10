@@ -1,0 +1,18 @@
+this forceAddUniform "CUP_U_C_Woodlander_03";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_Fortify";
+this addVest "V_TacVest_brn";
+for "_i" from 1 to 5 do {this addItemToVest "hlc_30Rnd_762x39_b_ak";};
+for "_i" from 1 to 2 do {this addItemToVest "hlc_30Rnd_762x39_t_ak";};
+this addBackpack "CUP_B_ACRScout_m95";
+for "_i" from 1 to 2 do {this addItemToBackpack "SmokeShellRed";};
+for "_i" from 1 to 2 do {this addItemToBackpack "SmokeShellGreen";};
+for "_i" from 1 to 2 do {this addItemToBackpack "hlc_VOG25_AK";};
+for "_i" from 1 to 2 do {this addItemToBackpack "hlc_GRD_Red";};
+this addHeadgear "CUP_H_PMC_Cap_Back_Tan";
+this addWeapon "hlc_rifle_akmgl";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

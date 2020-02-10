@@ -1,0 +1,15 @@
+this forceAddUniform "CUP_U_C_Villager_03";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addItemToUniform "ACE_Fortify";
+this addVest "V_TacVest_brn";
+for "_i" from 1 to 5 do {this addItemToVest "hlc_30Rnd_762x39_b_ak";};
+for "_i" from 1 to 2 do {this addItemToVest "hlc_30Rnd_762x39_t_ak";};
+this addBackpack "CUP_B_HikingPack_Civ";
+for "_i" from 1 to 5 do {this addItemToBackpack "hlc_75Rnd_762x39_AP_rpk";};
+this addHeadgear "CUP_H_PMC_Beanie_Black";
+this addWeapon "hlc_rifle_ak47";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

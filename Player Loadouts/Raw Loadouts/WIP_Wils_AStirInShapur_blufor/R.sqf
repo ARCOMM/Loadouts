@@ -1,0 +1,15 @@
+this forceAddUniform "CUP_U_B_FR_Corpsman";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_EarPlugs";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+this addVest "V_BandollierB_oli";
+for "_i" from 1 to 6 do {this addItemToVest "CUP_17Rnd_9x19_glock17";};
+this addItemToVest "ACE_M84";
+this addHeadgear "CUP_H_CZ_Helmet09";
+this addWeapon "CUP_hgun_Glock17_blk";
+this addHandgunItem "muzzle_snds_L";
+this addHandgunItem "CUP_acc_Glock17_Flashlight";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";

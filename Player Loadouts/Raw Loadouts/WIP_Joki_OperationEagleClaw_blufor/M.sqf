@@ -1,0 +1,24 @@
+this forceAddUniform "CUP_U_B_USArmy_TwoKnee";
+for "_i" from 1 to 5 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_Flashlight_XL50";
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_tourniquet";
+for "_i" from 1 to 2 do {this addItemToUniform "SmokeShell";};
+for "_i" from 1 to 2 do {this addItemToUniform "HandGrenade";};
+this addVest "V_PlateCarrier2_blk";
+for "_i" from 1 to 10 do {this addItemToVest "30rnd_556x45_Stanag_Tracer_Red";};
+this addBackpack "B_ViperLightHarness_blk_F";
+for "_i" from 1 to 30 do {this addItemToBackpack "ACE_fieldDressing";};
+for "_i" from 1 to 15 do {this addItemToBackpack "ACE_morphine";};
+for "_i" from 1 to 10 do {this addItemToBackpack "ACE_epinephrine";};
+for "_i" from 1 to 5 do {this addItemToBackpack "ACE_salineIV_250";};
+for "_i" from 1 to 10 do {this addItemToBackpack "ACE_personalAidKit";};
+this addHeadgear "H_HelmetB_light_black";
+this addWeapon "hlc_rifle_M4";
+this addPrimaryWeaponItem "optic_holosight_blk_f";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
+this linkItem "ItemGPS";
+this linkItem "arcore_nightvision_gen8";
+

@@ -1,0 +1,20 @@
+
+this forceAddUniform "MNP_CombatUniform_Germany_S";
+for "_i" from 1 to 3 do {this addItemToUniform "ACE_fieldDressing";};
+this addItemToUniform "ACE_morphine";
+this addItemToUniform "ACE_EarPlugs";
+this addItemToUniform "ACE_CableTie";
+this addVest "MNP_Vest_Germany_2";
+for "_i" from 1 to 2 do {this addItemToVest "CUP_HandGrenade_M67";};
+for "_i" from 1 to 2 do {this addItemToVest "hlc_12Rnd_357SIG_B_P226";};
+for "_i" from 1 to 6 do {this addItemToVest "hlc_30rnd_556x45_EPR_G36";};
+for "_i" from 1 to 2 do {this addItemToVest "hlc_30rnd_556x45_Tracers_G36";};
+for "_i" from 1 to 2 do {this addItemToVest "SmokeShell";};
+this addBackpack "B_Kitbag_rgr";
+this addHeadgear "MNP_Helmet_Germany";
+this addWeapon "hlc_rifle_G36V";
+this addPrimaryWeaponItem "CUP_optic_CompM4";
+this addWeapon "hlc_pistol_P226R_Stainless";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ItemWatch";
